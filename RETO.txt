@@ -1,0 +1,21 @@
+F0:
+
+=== cuenca_net.xml ===
+  Aristas: 34256 | Nodos: 15405 | Semáforos: 337 | Km de vía: 3984.28 km
+=== cuenca_ciudad.net.xml ===
+  Aristas: 1745 | Nodos: 1009 | Semáforos: 176 | Km de vía: 355.56 km
+
+
+F1:
+
+vanet@van3twin:~/results/RETO$ grep -c "<vehicle" fondo_*.rou.xml
+fondo_bus.rou.xml:293
+fondo_car.rou.xml:3534
+fondo_moto.rou.xml:882
+
+
+real	0m57.831s
+user	0m57.568s
+sys	0m0.186s
+
+
